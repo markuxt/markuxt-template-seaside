@@ -27,11 +27,14 @@ scholar: https://scholar.google.com/citations?user=xxxxx
 # Image location: alongside the markdown file in content/ (synced to public/_content/ at build time)
 image: /images/logo.png
 
-# category [Required]: Member category, supports four values:
+# category [Required]: Member category. This template declares four in
+# nuxt.config.ts (members.categories) — there are no built-in defaults:
 #   - staff              : Faculty and staff members
 #   - research-students  : PhD and research students
 #   - research-assistants: Research assistants
 #   - alumni             : Former members
+# Customize or replace them freely; the `key` here must match a configured
+# category's `key` (see README → Member categories).
 category: research-students
 
 # order [Optional]: Sort order within category (lower = earlier)

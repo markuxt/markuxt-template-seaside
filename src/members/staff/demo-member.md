@@ -13,7 +13,9 @@ scholar: https://scholar.google.com/citations?user=xxxxx
 # Replace this placeholder with your own photo (co-locate in assets/, or use /images/...).
 image: /images/logo.png
 
-# Member category — one of: staff | research-students | research-assistants | alumni
+# Member category. This template declares four in nuxt.config.ts:
+#   staff | research-students | research-assistants | alumni
+# Customize or replace them via `members.categories` (see README → Member categories).
 category: staff
 
 # Sort order within category (lower = earlier)
