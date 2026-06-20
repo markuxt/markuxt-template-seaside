@@ -186,10 +186,13 @@ description: A short summary       # Optional — used in lists/previews
 title: Decentralized Swarm Coordination # Required
 authors:                                 # Required — "LastName, FirstName"
   - Doe, John
+authors_orcid:                           # Optional — parallel to authors; null = none
+  - 0000-0000-0000-0000                  # Matches a member's `orcid` → cross-links them
 year: 2025                               # Required — listing groups by year
 doi: https://doi.org/10.1000/...         # Optional
 venue: IEEE Transactions on Robotics     # Optional
 keywords: [control systems, UAV]         # Optional
+abstract_screenshot: doe2025.png         # Optional — abstract screenshot next to the .md
 ---
 ```
 

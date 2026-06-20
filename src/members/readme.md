@@ -21,6 +21,10 @@ email: demo@example.com
 # scholar [Optional]: Google Scholar profile URL
 scholar: https://scholar.google.com/citations?user=xxxxx
 
+# orcid [Optional]: Bare ORCID iD (e.g. 0000-0001-2345-5678). Matching a
+# publication's `authors_orcid` entry cross-links this member with that paper.
+orcid: 0000-0000-0000-0000
+
 # image [Optional]: Profile photo path
 # Recommended size: 400x400px (square)
 # Supported formats: WebP (recommended), JPG, PNG

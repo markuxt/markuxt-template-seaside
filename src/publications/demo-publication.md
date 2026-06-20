@@ -16,6 +16,14 @@ authors:
   - Smith, Jane
   - Lee, Min
 
+# authors_orcid [Optional]: ORCID iD per author, PARALLEL to `authors` (use
+# null where an author has none). An ORCID matching a member's `orcid` links
+# them: the member appears as a site-author on this publication's page, and
+# this publication appears on the member's page. Below, the first author is
+# linked to the demo member (src/members/staff/demo-member.md).
+authors_orcid:
+  - 0000-0000-0000-0000
+
 # year [Required]: Publication year. Drives the "grouped by year"
 # listing on the Publications page.
 year: 2025
